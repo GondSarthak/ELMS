@@ -1,0 +1,8 @@
+# spring:
+#   data:
+#     mongodb:
+#       uri: mongodb+srv://${MONGO_USER}:${MONGO_PASSWORD}@${MONGO_CLUSTER}/?retryWrites=true&w=majority&connectTimeoutMS=30000
+#       database: ${MONGO_DATABASE}
+
+# server:
+#   port: 6900
